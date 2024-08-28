@@ -27,4 +27,4 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_KEY }}
         AWS_DEFAULT_REGION: "ap-south-1"
       run: |
-        aws s3 cp ./example/hello s3://${{ secrets.TARGET_BUCKET }}/
+        aws s3 cp ./example/addition s3://${{ secrets.TARGET_BUCKET }}/
